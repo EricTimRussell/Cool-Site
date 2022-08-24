@@ -1,0 +1,84 @@
+:root {
+  --background: rgb(111, 111, 252);
+  --columnColor: rgb(168, 168, 245);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+}
+
+body {
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  background-color: var(--background);
+  outline: 3px solid black;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.main.column {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  background-color: var(--columnColor);
+  color: var(--columnColor);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 20rem;
+  margin-right: 18rem;
+}
+
+
+.lorem-content {
+  justify-content: center;
+  text-align: left;
+  font-size: x-large;
+  padding-left: 15rem;
+  padding-bottom: 15rem;
+}
+
+.robot-article {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 0rem;
+  padding-left: 1rem;
+}
+
+img {
+  height: 10rem;
+  padding: 0;
+  margin: 0rem;
+}
+
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.article-p,
+p {
+  margin: 0;
+}
+
+.foot {
+  color: var(--background);
+  background-color: var(--background);
+  font-size: xx-large;
+  border: 3px solid black;
+}
